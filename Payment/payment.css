@@ -1,0 +1,101 @@
+body {
+   background-image: url(./image.jpeg);
+   background-attachment: fixed;
+   background-position: center;
+   background-color: #000000;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+h1 {
+  padding: 10px 10px 10px 10px;
+  font-size: 50px;
+  color: #D8BFD8;
+  text-align: center;
+  margin: 25px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #D8BFD8;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  opacity: 90%;
+  color: #490665;
+  width: 50%;
+  margin-left: 350px;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=password], input[type=month] {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  color: #808080;
+  margin-left: 25px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 25px;
+}
+
+.btn {
+  background-color: #490665;
+  color: #D8BFD8;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: auto;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  margin-left: 25px;
+}
+
+.btn:hover {
+  background-color: #808080;
+  color: #490665;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .container {
+    margin-left: 120px;
+  }
+}
