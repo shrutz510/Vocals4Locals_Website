@@ -1,0 +1,89 @@
+body {
+  background-image: url('./img.png');
+  background-repeat: no-repeat;
+  background-position: center fixed;
+  background-size: cover;
+  background-color: #cccccc;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+image {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+    adding: 10px 10px 10px 10px;
+    font-size: 50px;
+    color: #490665;
+    text-align: center;
+    margin: 25px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}
+
+.container {
+  background-color: #D8BFD8;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 30px;
+  opacity: 60%;
+  color: #490665;
+  width: 100%;
+}
+
+label{
+  margin: 0;
+  padding: 15px 15px 30px 1px;
+  font-weight: bold;
+}
+
+text {
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="password"], input[type="email"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #490665;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #808080;
+    font-size: 16px;
+    padding: 20px 15px 10px 1px;
+}
+
+input[type="reset"] {
+    margin-left: 15px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 75px;
+    background: #490665;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.button:hover {
+  background-color: #808080;
+  color: #490665;
+}
+
+a {
+    font-size: 15px;
+    color: #808080;
+}
